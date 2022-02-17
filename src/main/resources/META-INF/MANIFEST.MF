@@ -1,0 +1,1 @@
+MixinConnector: com.gizmo.subtitleblocker.mixin.MixinConnector

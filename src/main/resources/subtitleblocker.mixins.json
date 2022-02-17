@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gizmo.subtitleblocker.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "SubtitleOverlayGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "subtitleblocker.refmap.json"
+}

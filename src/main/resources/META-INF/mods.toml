@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license= "GNU LESSER GENERAL PUBLIC LICENSE"
+licenseURL= "https://github.com/GizmoTheMoonPig/subtitle-blocker/blob/master/LICENSE.txt"
+issueTrackerURL="https://github.com/GizmoTheMoonPig/subtitle-blocker/issues"
+[[mods]]
+modId="subtitleblocker"
+version="${file.jarVersion}"
+displayName="Subtitle Blocker"
+logoFile="logo.png"
+credits="Suggested by Saxmith in the Twilight Forest Discord"
+authors="GizmoTheMoonPig"
+description='''
+Do you play with subtitles on? Are you sick of seeing 15 different subtitles in raids or chicken subtitles around your chicken farm?
+If so, this mod is for you! Subtitles are configurable via a GUI. Press (- by default) to open the GUI and disable what you want to!
+'''
+
+[[dependencies.subtitleblocker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.subtitleblocker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1]"
+    ordering="NONE"
+    side="BOTH"
