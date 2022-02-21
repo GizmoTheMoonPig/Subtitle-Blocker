@@ -38,7 +38,7 @@ public class SubtitleBlocker {
 
 	public void setupKeybind(FMLClientSetupEvent event) {
 		guiKey = new KeyMapping(
-				"Open Subtitle Blocking GUI",
+				"keybind.subtitleblocker.open_gui",
 				KeyConflictContext.IN_GAME,
 				InputConstants.Type.KEYSYM,
 				GLFW.GLFW_KEY_MINUS,

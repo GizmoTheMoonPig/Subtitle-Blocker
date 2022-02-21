@@ -1,5 +1,6 @@
 {
   "gui.subtitleblocker.blocked_subtitles": "Blocked Subtitles",
   "gui.subtitleblocker.empty_list": "Nothing to see here... yet",
-  "gui.subtitleblocker.subtitles_off": "You don't have subtitles turned on!"
+  "gui.subtitleblocker.subtitles_off": "You don't have subtitles turned on!",
+  "keybind.subtitleblocker.open_gui": "Open Subtitle Blocking GUI"
 }
